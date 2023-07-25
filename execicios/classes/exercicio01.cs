@@ -23,9 +23,23 @@ namespace Exercicio
             pessoaDois.Nome = Console.ReadLine();
             Console.WriteLine("Idade");
             pessoaDois.Idade = int.Parse(Console.ReadLine());
+            int maiorIdade = 0;
+            string maiorNome = " ";
+            if (pessoaUm.Idade > pessoaDois.Idade)
+            {
+                maiorIdade = pessoaUm.Idade;
+                maiorNome = pessoaUm.Nome;
+                
+            }
+            else
+            {
+                maiorIdade = pessoaDois.Idade;
+                maiorNome = pessoaDois.Nome;
+            }
 
             Console.WriteLine($"Primeira Pessoa \nNOME: {pessoaUm.Nome}, IDADE: {pessoaUm.Idade}");
             Console.WriteLine($"Segunda Pessoa \nNOME: {pessoaDois.Nome}, IDADE: {pessoaDois.Idade}");
+            Console.WriteLine($"{maiorNome} é o mais velho(a) com {maiorIdade} anos");
 
 
 
