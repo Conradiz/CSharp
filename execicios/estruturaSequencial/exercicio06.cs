@@ -17,6 +17,7 @@ namespace ExercicioSeis
             double areaRetangulo =  Math.Pow(ladoA * ladoB, 2);
             Console.WriteLine($"Area do Triangulo Retangulo: {areaTrianguloRetangulo.ToString("F2", CultureInfo.InvariantCulture)}");
             Console.WriteLine($"Area do Trapezio: {areaTrapezio.ToString("F3", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($" Area do circulo: {areaCirculo.ToString("F3", CultureInfo.InvariantCulture)}");
         
         }
     }
