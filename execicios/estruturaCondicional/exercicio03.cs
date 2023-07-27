@@ -10,7 +10,7 @@ namespace ExecicioDois {
            Console.Write("Digite um numero B: ");
            int numeroB = int.Parse(Console.ReadLine());
 
-           if (numeroA % numeroB == 0){
+           if (numeroA % numeroB == 0 || numeroB % numeroA == 0){
             Console.WriteLine("São multiplos");
            } 
            else {
