@@ -15,10 +15,14 @@ using System;
 namespace ExercicioSeis{
     class Program{
         public static void Main(string[] args){
+            do{
+                 Console.WriteLine("Digite um valor entre 5 e 10");
 
-            Console.WriteLine("Digite um valor entre 5 e 10");
+            }while{
+                 int numero = int.Parse(Console.ReadLine());
+            }
+           
 
-            
         }
     }
 }
