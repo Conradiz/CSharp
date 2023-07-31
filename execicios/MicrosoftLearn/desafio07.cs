@@ -11,3 +11,16 @@ A solução deve usar o método ToLower() no valor de entrada para ignorar maiú
 Se o valor inserido não corresponder a uma das opções de função, o código deverá usar uma instrução Console.WriteLine() para solicitar ao usuário uma entrada válida.
 Abaixo (depois) do bloco de código de iteração: a solução deve usar uma instrução Console.WriteLine() para informar ao usuário que o valor de entrada foi aceito. */
 
+using System;
+
+namespace DesafioSete
+{
+    class Program
+    {
+        public static void Main (String[] args){
+
+            Console.WriteLine("Escolha sua Funcão: ");
+        }
+    }
+}
+
