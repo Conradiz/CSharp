@@ -16,6 +16,9 @@ namespace ExercicioSeis{
     class Program{
         public static void Main(string[] args){
 
+            Console.WriteLine("Digite um valor entre 5 e 10");
+
+            
         }
     }
 }
