@@ -7,14 +7,16 @@ namespace ExercicioUm
     {
         public static void Main (string[] args )
         {
+            Console.Write("Digite um valor:  ");
             int valor = int.Parse(Console.ReadLine());
             int cont = 0;
-            while (cont < valor){
+            while (cont <= valor){
                 cont++;
                 if (cont % 2 == 1){
-                    Console.WriteLine()
+                    Console.WriteLine($"Numero: {cont} IMPAR");
                 }
             } 
+            Console.WriteLine("Finalizado");
         }
     }
 }
