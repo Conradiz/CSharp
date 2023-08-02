@@ -8,10 +8,29 @@ namespace ExercicioDois
     {
         public static void Main (string[] args)
         {
+             Console.WriteLine("Quantos valores voce deseja inserir");
             int n = int.Parse(Console.ReadLine());
             int x = 0; 
+            int[] numeros = new int[n];
+            int nTotaisForaIntervalo = 0;
+            int nTotaisIntervalo = 0;
+            int i = 0;
 
-            while ( < )
+            for (i = 0; i < n; i++){
+                Console.Write($"Digite o {i+1}° valor: ");
+                numeros[i] = int.Parse(Console.ReadLine());
+                if ((numeros[i] > 10) && (numeros[i] <20)){
+                    nTotaisIntervalo += 1;
+                    Console.WriteLine($"{numeros[i]} esta dentro do intervalo");
+                }
+                else {
+                    Console.WriteLine($"Numero {numeros[i]} esta fora do intervalo");
+                    nTotaisForaIntervalo +=1;
+                }
+            }
+            Console.WriteLine("Finish");
+            Console.WriteLine($"{nTotaisForaIntervalo} valores estão fora do intervalo");
+            Console.WriteLine($"{nTotaisIntervalo} valores estão dentro do intervalo");
 
         }
     }
