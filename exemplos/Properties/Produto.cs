@@ -16,8 +16,8 @@ namespace ConsoleApp
         {
 
         }
-        public Produto(string _nome, double preco, int quantidade) {
-            this._nome = _nome;
+        public Produto(string nome, double preco, int quantidade) {
+            _nome = nome;
             Preco = preco;  
             Quantidade = quantidade;    
         }
