@@ -1,4 +1,5 @@
 //Em Programação, "vetor' é o nome dado a arranjos inidimensionais
+//Como exemplo faça um programa para ler um número inteiro N e a altura de N Pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a altura média das pessoas.
 using System.Globalization;
 
 namespace Vetores {
