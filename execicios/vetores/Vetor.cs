@@ -11,5 +11,13 @@ namespace Vetores {
         for (int i = 0; i < n; i++){
             vect[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         }
+        double sum = 0.0;
+        for (int i = 0; i < n; i++){
+            sum = sum + vect[i];
+        }
+
+        double media = sum/n;
+
+        Console.WriteLine($"AVERAGE HEIGHT = {media.ToString("F2", CultureInfo.InvariantCulture)}");
     }
 }
