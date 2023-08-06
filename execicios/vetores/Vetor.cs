@@ -3,6 +3,7 @@ using System.Globalization;
 
 namespace Vetores {
     static void Main (string[] args) {
+        Console.WriteLine("Ate quanto voce deseja contar?");
         int n = int.Parse(Console.ReadLine());
 
         double [] vect = new double [n];
