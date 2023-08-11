@@ -4,7 +4,7 @@ using System.Globalization;
 
 namespace Vetores {
     static void Main (string[] args) {
-        Console.WriteLine("Ate quanto voce deseja contar?");
+        Console.WriteLine("Quantas notas voce deseja calcular?");
         int n = int.Parse(Console.ReadLine());
 
         double [] vect = new double [n];
@@ -14,7 +14,7 @@ namespace Vetores {
         }
         double sum = 0.0;
         for (int i = 0; i < n; i++){
-            sum = sum + vect[i];
+            sum += vect[i];
         }
 
         double media = sum/n;
