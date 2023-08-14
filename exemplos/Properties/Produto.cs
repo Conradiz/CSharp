@@ -8,7 +8,7 @@ namespace ConsoleApp
 {
     internal class Produto
     {
-        private string _nome;
+        public string Nome {get; private set};
         public double Preco { get; private set; } 
         public int Quantidade { get; private set; }
 
@@ -17,22 +17,11 @@ namespace ConsoleApp
 
         }
         public Produto(string nome, double preco, int quantidade) {
-            _nome = nome;
+            Nome = nome;
             Preco = preco;  
             Quantidade = quantidade;    
-        }
-
-        public string Nome { 
-            get { return _nome; }
-            set
-            {
-                if (value != null && value.Length > 1)
-                {
-                    _nome = value;
-                }
-            }
-        }    
-       
+        }   
+    
       
         public double ValorTotalEmEstoque()
         {

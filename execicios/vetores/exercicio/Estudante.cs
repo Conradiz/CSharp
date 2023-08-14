@@ -7,7 +7,7 @@ namespace Course {
             Email = email;
         }
         public override string ToString() {
-            return Nome + ", " + Email;
+             return "Nome: "+ Nome + ", " + "Email: " +Email;
         }
     }
 }
